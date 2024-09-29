@@ -34,7 +34,7 @@ const ContactForm: FC<ContactFormProps> = ({ }) => {
         if (name && email && message) {
             try {
                 const response = await fetch(
-                    `https://shy-pear-python-gear.cyclic.app/messages/mail`,
+                    `https://imranali.vercel.app/`,
                     {
                         method: 'POST',
                         headers: {
